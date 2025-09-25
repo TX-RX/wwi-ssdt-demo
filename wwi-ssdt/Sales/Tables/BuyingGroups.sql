@@ -1,5 +1,5 @@
 ﻿CREATE TABLE [Sales].[BuyingGroups] (
-    [BuyingGroupID]   INT                                         CONSTRAINT [DF_Sales_BuyingGroups_BuyingGroupID] DEFAULT (NEXT VALUE FOR [Sequences].[BuyingGroupID]) NOT NULL,
+    [BuyingGroupIDsales]   INT                                         CONSTRAINT [DF_Sales_BuyingGroups_BuyingGroupID] DEFAULT (NEXT VALUE FOR [Sequences].[BuyingGroupID]) NOT NULL,
     [BuyingGroupName] NVARCHAR (50)                               NOT NULL,
     [LastEditedBy]    INT                                         NOT NULL,
     [ValidFrom]       DATETIME2 (7) GENERATED ALWAYS AS ROW START NOT NULL,
