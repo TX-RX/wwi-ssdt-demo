@@ -11,6 +11,8 @@
     [IsOrderLineFinalized]      BIT             NOT NULL,
     [LastEditedBy]              INT             NOT NULL,
     [LastEditedWhen]            DATETIME2 (7)   CONSTRAINT [DF_Purchasing_PurchaseOrderLines_LastEditedWhen] DEFAULT (sysdatetime()) NOT NULL,
+    [CreatedBy]                 INT             NOT NULL,
+    [CreatedWhen]               DATETIME2 (7)   CONSTRAINT [DF_Purchasing_PurchaseOrderLines_CreatedWhen] DEFAULT (sysdatetime()) NOT NULL,
     CONSTRAINT [PK_Purchasing_PurchaseOrderLines] PRIMARY KEY CLUSTERED ([PurchaseOrderLineID] ASC),
     CONSTRAINT [FK_Purchasing_PurchaseOrderLines_Application_People] FOREIGN KEY ([LastEditedBy]) REFERENCES [Application].[People] ([PersonID]),
     CONSTRAINT [FK_Purchasing_PurchaseOrderLines_PackageTypeID_Warehouse_PackageTypes] FOREIGN KEY ([PackageTypeID]) REFERENCES [Warehouse].[PackageTypes] ([PackageTypeID]),
