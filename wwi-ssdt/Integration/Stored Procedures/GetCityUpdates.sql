@@ -45,7 +45,7 @@ BEGIN
     UNION ALL
     SELECT co.CountryID,
            co.ValidFrom
-    FROM [Application].Countries AS co
+    FROM [Application].Countries AS co with (rowlock) --lol
     WHERE co.ValidFrom > @LastCutoff
     AND co.ValidFrom <= @NewCutoff
     AND co.ValidFrom <> @InitialLoadDate
