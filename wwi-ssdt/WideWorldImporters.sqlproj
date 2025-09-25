@@ -154,6 +154,7 @@
     <Folder Include="WebApi\Stored Procedures" />
   </ItemGroup>
   <ItemGroup>
+    <Build Include="Sales\Tables\InvoiceLines_tx.sql" />
     <Build Include="Warehouse\Tables\Colors.sql">
       <AnsiNulls>On</AnsiNulls>
       <QuotedIdentifier>On</QuotedIdentifier>
@@ -207,10 +208,6 @@
       <QuotedIdentifier>On</QuotedIdentifier>
     </Build>
     <Build Include="Application\Tables\SystemParameters.sql">
-      <AnsiNulls>On</AnsiNulls>
-      <QuotedIdentifier>On</QuotedIdentifier>
-    </Build>
-    <Build Include="Sales\Tables\InvoiceLines.sql">
       <AnsiNulls>On</AnsiNulls>
       <QuotedIdentifier>On</QuotedIdentifier>
     </Build>

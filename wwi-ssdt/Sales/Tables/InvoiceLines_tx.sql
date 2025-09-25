@@ -1,4 +1,4 @@
-﻿CREATE TABLE [Sales].[InvoiceLines] (
+﻿CREATE TABLE [Sales].[InvoiceLines_tx] (
     [InvoiceLineID]  INT             CONSTRAINT [DF_Sales_InvoiceLines_InvoiceLineID] DEFAULT (NEXT VALUE FOR [Sequences].[InvoiceLineID]) NOT NULL,
     [InvoiceID]      INT             NOT NULL,
     [StockItemID]    INT             NOT NULL,
