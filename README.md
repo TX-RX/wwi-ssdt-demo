@@ -1,6 +1,8 @@
 # wwi-ssdt-demo
+
 A Copy of the SQL Server Database Project from Microsoft SQL Server Sample to allow data engineers to familiarize themselves with GIT
-# WideWorldImporters SSDT Demo
+
+## WideWorldImporters SSDT Demo
 
 This repository contains a copy of the `wwi-ssdt` folder from the [Microsoft SQL Server Samples](https://github.com/microsoft/sql-server-samples) repository, specifically for demo and training purposes.
 
@@ -19,7 +21,7 @@ Please refer to the original repository for license details: [LICENSE](https://g
 This repository is not affiliated with or endorsed by Microsoft. For official samples and documentation, visit the [Microsoft SQL Server Samples](https://github.com/microsoft/sql-server-samples) repository.
 
 
-# WideWorldImporters OLTP Database
+## WideWorldImporters OLTP Database
 
 The Visual Studio SQL Server Data Tools project in this folder is used to construct the WideWorldImporters database from scratch on SQL Server or Azure SQL Database. It is possible to vary the data size.
 
@@ -116,4 +118,5 @@ Continue with Step 2 above.
 <a name=disclaimers></a>
 
 ## Disclaimers
+
 The code included in this sample is not intended to be used for production purposes.
