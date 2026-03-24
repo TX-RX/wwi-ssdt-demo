@@ -154,6 +154,7 @@
     <Folder Include="WebApi\Stored Procedures" />
   </ItemGroup>
   <ItemGroup>
+    <Build Include="dbo\Tables\Dogs.sql" />
     <Build Include="Warehouse\Tables\Colors.sql">
       <AnsiNulls>On</AnsiNulls>
       <QuotedIdentifier>On</QuotedIdentifier>
